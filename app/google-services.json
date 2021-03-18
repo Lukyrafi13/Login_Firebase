@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "650659689310",
+    "firebase_url": "https://databaseku-49f47-default-rtdb.firebaseio.com",
+    "project_id": "databaseku-49f47",
+    "storage_bucket": "databaseku-49f47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650659689310:android:e4d7f558deffb2e95955cf",
+        "android_client_info": {
+          "package_name": "com.luckyrafi.login_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650659689310-b8j3ct2fpjoph5cvvbpm5nfji1l60eii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbOrOPSyAUqvyF4W3tsjtlbyM85sOWuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650659689310-b8j3ct2fpjoph5cvvbpm5nfji1l60eii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650659689310:android:51dfdfabba41b16a5955cf",
+        "android_client_info": {
+          "package_name": "com.luckyrafi13.login_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650659689310-b8j3ct2fpjoph5cvvbpm5nfji1l60eii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbOrOPSyAUqvyF4W3tsjtlbyM85sOWuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650659689310-b8j3ct2fpjoph5cvvbpm5nfji1l60eii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
