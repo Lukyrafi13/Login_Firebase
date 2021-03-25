@@ -110,6 +110,8 @@ public class SignUpActivity extends AppCompatActivity {
                                 //Mengecek status keberhasilan saat medaftarkan email dan sandi baru
                                 if (task.isSuccessful()) {
                                     Toast.makeText(SignUpActivity.this, "Sign Up Success", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                                    startActivity(intent);
                                     finish();
                                 } else {
                                     Toast.makeText(SignUpActivity.this, "Terjadi Kesalahan, Silakan Coba Lagi", Toast.LENGTH_SHORT).show();

@@ -89,7 +89,8 @@ public class LoginActivity extends AppCompatActivity {
         bt_Signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
+                Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -121,6 +122,8 @@ public class LoginActivity extends AppCompatActivity {
                         //Mengecek status keberhasilan saat login
                         if(task.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                            startActivity(intent);
                         }else {
                             Toast.makeText(LoginActivity.this, "Tidak Dapat Masuk, Silakan Coba Lagi", Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);
